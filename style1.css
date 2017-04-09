@@ -1,0 +1,71 @@
+/* шапка страницы*/
+.header{
+    width: auto;
+    display: block;
+    background-color: #053315;
+    margin: 10px;
+    padding: 10px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.logo{
+    display: inline-block;
+    background-color: hsl(0, 100%, 19%);
+    padding: 10px 10px 5px 10px;
+}
+.search{
+    display: inline-block;
+    background-color: hsl(0, 100%, 19%);
+    float: right;
+    padding: 9px 0px 9px 10px;
+    width: 25%;
+}
+/*Контент страницы*/
+.content{
+    font-family: "Helvetica", sans-serif;
+    display: block;
+
+
+}
+p{
+    /* font-family: "Georgia";*/
+    color: darkslategray;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+
+}
+h1{
+    text-transform:capitalize;
+    text-decoration:underline;
+    text-align: center;
+
+    font-family:"Helvetica", sans-serif;
+    color: #e71df1;
+}
+mark{
+    text-decoration: underline;
+}
+/*Футер страницы*/
+.footer{
+    display: block;
+    background-color: #610000;
+    margin: 10px;
+    padding: 61px;
+    width: auto;
+}
+
+.container {
+    display: inline-block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+span{
+    padding-right: 20px;
+}
+.block-inner-footer{}
+.news{
+    text-decoration:blink;
+}
