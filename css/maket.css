@@ -1,0 +1,21 @@
+.block{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.block div{
+    display: inline-block;
+}
+.col1{
+    background: green; /* Цвет фона */
+    left: 0; /* Положение левого края */
+    width: 50% /* Положение правого края */
+}
+.col2{
+    background: red;
+    width: 200px; /* Ширина колонки */
+    right: 100px; /
+}
+.col3{
+    background: blue; width: 20%; right: 0;
+}
