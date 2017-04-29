@@ -1,25 +1,23 @@
 .block{
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+
 }
 .block div{
-    display: inline-block;
+
     height: 350px;
-    overflow: hidden;
+
 }
 .col1{
     background: green;
-    left: 0;
-    width: 50%
+    float: left;
+    width: 200px;
 }
 .col2{
     background: red;
     width: 200px;
-    right: auto;
+    float: right;
+
 }
 .col3{
     background: blue;
-    width: 20%;
-    right: 0;
+
 }
